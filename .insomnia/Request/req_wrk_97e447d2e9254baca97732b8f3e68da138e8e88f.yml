@@ -1,0 +1,21 @@
+_id: req_wrk_97e447d2e9254baca97732b8f3e68da138e8e88f
+authentication: {}
+body: {}
+created: 1588191519222
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1588191519222
+method: DELETE
+modified: 1588191768849
+name: Delete user
+parameters: []
+parentId: fld_wrk_97e447d2e9254baca97732b8f3e68da112dea96f
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/user/{{ username }}"

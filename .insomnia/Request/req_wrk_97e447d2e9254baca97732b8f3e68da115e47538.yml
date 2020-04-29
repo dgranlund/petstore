@@ -1,0 +1,21 @@
+_id: req_wrk_97e447d2e9254baca97732b8f3e68da115e47538
+authentication: {}
+body: {}
+created: 1588191519235
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1588191519235
+method: DELETE
+modified: 1588191768865
+name: Delete purchase order by ID
+parameters: []
+parentId: fld_wrk_97e447d2e9254baca97732b8f3e68da13a21295d
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/store/order/{{ orderId }}"
